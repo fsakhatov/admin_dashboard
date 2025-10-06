@@ -26,7 +26,7 @@ const DashboardLayout = () => {
       )}
       <div className="flex flex-1 flex-col">
         <TopBar onOpenSidebar={() => setSidebarOpen(true)} />
-        <main className="flex-1 overflow-y-auto px-4 py-6 sm:px-6 lg:px-10">
+        <main className="flex-1 px-4 py-6 sm:px-6 lg:px-10">
           <Outlet />
         </main>
       </div>
