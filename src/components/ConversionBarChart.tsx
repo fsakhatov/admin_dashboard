@@ -38,7 +38,7 @@ export const ConversionBarChart = () => {
 
   return (
     <div className="glass-panel h-full rounded-3xl border border-slate-200/70 p-6 transition hover:shadow-xl dark:border-slate-800/70">
-      <div className="flex items-start justify-between gap-3 pb-6">
+      <div className="flex flex-col gap-4 pb-6 md:flex-row md:items-center md:gap-6">
         <div>
           <p className="text-sm uppercase tracking-[0.3em] text-slate-400 dark:text-slate-500">
             Growth Diagnostics
