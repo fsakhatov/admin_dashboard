@@ -15,7 +15,7 @@ body,
 }
 
 body {
-  @apply bg-background-light text-slate-900 transition-colors duration-300 ease-out dark:bg-background-dark dark:text-slate-100;
+  @apply bg-background-light text-slate-900 transition-colors duration-300 ease-out overflow-x-hidden dark:bg-background-dark dark:text-slate-100;
 }
 
 .glass-panel {

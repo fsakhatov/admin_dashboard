@@ -7,7 +7,7 @@ const DashboardLayout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="flex min-h-screen bg-background-light/80 text-slate-900 transition-colors duration-300 dark:bg-background-dark/95 dark:text-slate-100">
+    <div className="flex min-h-screen overflow-x-hidden bg-background-light/80 text-slate-900 transition-colors duration-300 dark:bg-background-dark/95 dark:text-slate-100">
       <Sidebar
         isOpen={sidebarOpen}
         onNavigate={() => {
